@@ -43,5 +43,16 @@ public class UserController {
         return "fragment-expression";
     }
 
+    // add css & js
+    @GetMapping("/style")
+    public String addCssJs() {
+        return "add-css-js";
+    }
+
+    // add bootstrap
+    @GetMapping("/bootstrap")
+    public String addBootstrap() {
+        return "add-bootstrap";
+    }
 
 }
